@@ -29,9 +29,9 @@ class EmployeeLeaveCalendarFragment: BaseFragment<FragmentEmployeeLeaveCalendarB
 //                this.testValue.value="home改變了public的值"
 //            }
 //        }
-        binding.employeeCalendar.setOnClickListener {
-            requireActivity().findNavController(R.id.employee_view_nav).navigate(R.id.action_employeeLeaveCalendarFragment_to_employeeLeaveCalendarInFragment)
-        }
+//        binding.employeeCalendar.setOnClickListener {
+//            requireActivity().findNavController(R.id.employee_view_nav).navigate(R.id.action_employeeLeaveCalendarFragment_to_employeeLeaveCalendarInFragment)
+//        }
     }
 
 }

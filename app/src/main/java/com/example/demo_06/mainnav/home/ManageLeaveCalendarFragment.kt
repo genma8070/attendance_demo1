@@ -30,9 +30,9 @@ class ManageLeaveCalendarFragment: BaseFragment<FragmentManageLeaveCalendarBindi
 //                this.testValue.value="home改變了public的值"
 //            }
 //        }
-        binding.manageCalendar.setOnClickListener {
-            requireActivity().findNavController(R.id.employee_view_nav).navigate(R.id.action_manageLeaveCalendarFragment_to_manageLeaveCalendarInFragment)
-        }
+//        binding.manageCalendar.setOnClickListener {
+//            requireActivity().findNavController(R.id.employee_view_nav).navigate(R.id.action_manageLeaveCalendarFragment_to_manageLeaveCalendarInFragment)
+//        }
     }
 
 }

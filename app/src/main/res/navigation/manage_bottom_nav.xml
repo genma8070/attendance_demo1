@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottom_nav"
     app:startDestination="@id/manageLeaveReviewFragment">
     <fragment
@@ -36,27 +37,15 @@
         android:name="com.example.demo_06.mainnav.home.ManageLeaveRecordFragment"
         android:label="ManageLeaveRecordFragment" >
         <action
-            android:id="@+id/action_manageLeaveRecordFragment_to_manageLeaveCalendarFragment"
-            app:destination="@id/manageLeaveCalendarFragment" />
-        <action
             android:id="@+id/action_manageLeaveRecordFragment_to_leaveRecordDetail03Fragment"
             app:destination="@id/leaveRecordDetail03Fragment" />
         <action
             android:id="@+id/action_manageLeaveRecordFragment_to_leaveRecordDetail04Fragment"
             app:destination="@id/leaveRecordDetail04Fragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/manageLeaveCalendarFragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveCalendarFragment"
-        android:label="ManageLeaveCalendarFragment" >
         <action
-            android:id="@+id/action_manageLeaveCalendarFragment_to_manageLeaveCalendarInFragment"
-            app:destination="@id/manageLeaveCalendarInFragment" />
+            android:id="@+id/action_manageLeaveRecordFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/manageLeaveCalendarInFragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveCalendarInFragment"
-        android:label="ManageLeaveCalendarInFragment" />
     <fragment
         android:id="@+id/manageLeaveReviewFirstFragment"
         android:name="com.example.demo_06.mainnav.home.ManageLeaveReviewFirstFragment"
@@ -81,4 +70,9 @@
         android:id="@+id/leaveRecordDetail04Fragment"
         android:name="com.example.demo_06.mainnav.home.LeaveRecordDetail04Fragment"
         android:label="LeaveRecordDetail04Fragment" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.demo_06.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
 </navigation>
