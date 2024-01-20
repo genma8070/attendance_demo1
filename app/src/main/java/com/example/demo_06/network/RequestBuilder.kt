@@ -23,8 +23,8 @@ class RequestBuilder {
     fun <T>getAPI(apiType:Class<T>):T= retrofitBuilder.create(apiType)
     companion object {
 //      固定IP
-        const val REQUEST_URL="http://192.168.0.87:8080" // 11F
-//        const val REQUEST_URL="http://192.168.1.120:8080"
+//        const val REQUEST_URL="http://192.168.0.87:8080" // 11F
+        const val REQUEST_URL="http://192.168.1.134:8080"
 //        const val REQUEST_URL="http://192.168.0.79:8080"
     }
 }
