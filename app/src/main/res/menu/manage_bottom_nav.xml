@@ -13,7 +13,7 @@
         android:icon="@drawable/review_icon"
         android:title="休暇申込リスト"/>
     <item
-        android:id="@+id/manageLeaveCalendarFragment"
+        android:id="@+id/calendarFragment"
         android:icon="@drawable/calendar_icon"
         android:title="カレンダー"/>
 </menu>

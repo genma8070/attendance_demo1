@@ -17,23 +17,9 @@
         android:name="com.example.demo_06.mainnav.home.EmployeeLeaveRecordFragment"
         android:label="EmployeeLeaveRecordFragment" >
         <action
-            android:id="@+id/action_employeeLeaveRecordFragment_to_leaveRecordDetail01Fragment"
-            app:destination="@id/leaveRecordDetail01Fragment" />
-        <action
-            android:id="@+id/action_employeeLeaveRecordFragment_to_leaveRecordDetail02Fragment"
-            app:destination="@id/leaveRecordDetail02Fragment" />
-        <action
             android:id="@+id/action_employeeLeaveRecordFragment_to_calendarFragment2"
             app:destination="@id/calendarFragment2" />
     </fragment>
-    <fragment
-        android:id="@+id/leaveRecordDetail01Fragment"
-        android:name="com.example.demo_06.mainnav.home.LeaveRecordDetail01Fragment"
-        android:label="LeaveRecordDetail01Fragment" />
-    <fragment
-        android:id="@+id/leaveRecordDetail02Fragment"
-        android:name="com.example.demo_06.mainnav.home.LeaveRecordDetail02Fragment"
-        android:label="LeaveRecordDetail02Fragment" />
     <fragment
         android:id="@+id/calendarFragment2"
         android:name="com.example.demo_06.CalendarFragment"

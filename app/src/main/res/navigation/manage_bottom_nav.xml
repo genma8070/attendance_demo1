@@ -11,18 +11,6 @@
         <action
             android:id="@+id/action_manageLeaveReviewFragment_to_manageLeaveApplicationFragment"
             app:destination="@id/manageLeaveApplicationFragment" />
-        <action
-            android:id="@+id/action_manageLeaveReviewFragment_to_manageLeaveReviewFirstFragment"
-            app:destination="@id/manageLeaveReviewFirstFragment" />
-        <action
-            android:id="@+id/action_manageLeaveReviewFragment_to_manageLeaveReviewSecondFragment"
-            app:destination="@id/manageLeaveReviewSecondFragment" />
-        <action
-            android:id="@+id/action_manageLeaveReviewFragment_to_manageLeaveReviewFirst02Fragment"
-            app:destination="@id/manageLeaveReviewFirst02Fragment" />
-        <action
-            android:id="@+id/action_manageLeaveReviewFragment_to_manageLeaveReviewFirst03Fragment"
-            app:destination="@id/manageLeaveReviewFirst03Fragment" />
     </fragment>
     <fragment
         android:id="@+id/manageLeaveApplicationFragment"
@@ -37,39 +25,9 @@
         android:name="com.example.demo_06.mainnav.home.ManageLeaveRecordFragment"
         android:label="ManageLeaveRecordFragment" >
         <action
-            android:id="@+id/action_manageLeaveRecordFragment_to_leaveRecordDetail03Fragment"
-            app:destination="@id/leaveRecordDetail03Fragment" />
-        <action
-            android:id="@+id/action_manageLeaveRecordFragment_to_leaveRecordDetail04Fragment"
-            app:destination="@id/leaveRecordDetail04Fragment" />
-        <action
             android:id="@+id/action_manageLeaveRecordFragment_to_calendarFragment"
             app:destination="@id/calendarFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/manageLeaveReviewFirstFragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveReviewFirstFragment"
-        android:label="ManageLeaveReviewFirstFragment" />
-    <fragment
-        android:id="@+id/manageLeaveReviewSecondFragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveReviewSecondFragment"
-        android:label="ManageLeaveReviewSecondFragment" />
-    <fragment
-        android:id="@+id/manageLeaveReviewFirst02Fragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveReviewFirst02Fragment"
-        android:label="ManageLeaveReviewFirst02Fragment" />
-    <fragment
-        android:id="@+id/manageLeaveReviewFirst03Fragment"
-        android:name="com.example.demo_06.mainnav.home.ManageLeaveReviewFirst03Fragment"
-        android:label="ManageLeaveReviewFirst03Fragment" />
-    <fragment
-        android:id="@+id/leaveRecordDetail03Fragment"
-        android:name="com.example.demo_06.mainnav.home.LeaveRecordDetail03Fragment"
-        android:label="LeaveRecordDetail03Fragment" />
-    <fragment
-        android:id="@+id/leaveRecordDetail04Fragment"
-        android:name="com.example.demo_06.mainnav.home.LeaveRecordDetail04Fragment"
-        android:label="LeaveRecordDetail04Fragment" />
     <fragment
         android:id="@+id/calendarFragment"
         android:name="com.example.demo_06.CalendarFragment"
